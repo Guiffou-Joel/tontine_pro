@@ -53,7 +53,7 @@ class _ComputerState extends State<Computer> {
       for (int j = 0; j < ton.listes.length; j++) {
         TontineListe l = ton.listes[j];
         for (int k = 0; k < l.positions.length; k++) {
-          if (l.positions[j] == Position.me) {
+          if (l.positions[k] == Position.me) {
             mesListes.add({
               "liste": l,
               "tontine": ton.name,
